@@ -1,5 +1,5 @@
 # url-shortener-rest-api
-This simple REST API is a basic approach for shortening URL problem. <br>
+How to shorten URL using Python? This simple REST API is a basic approach for shortening URL problem. <br>
 
 Let's say you have a URL with 1000 characters. When you call this service endpoint,
 it will shorten it to 26 characters (without the server name). <br>
