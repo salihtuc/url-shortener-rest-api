@@ -1,0 +1,6 @@
+fastapi[all]
+pydantic
+validators
+shortuuid
+uvicorn
+pymongo
