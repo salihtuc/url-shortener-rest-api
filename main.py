@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import RedirectResponse
 from pydantic import BaseModel
-from urllib.parse import urlparse, urlunparse
+from urllib.parse import urlparse
 import validators
 import shortuuid
 import uvicorn
@@ -109,5 +109,6 @@ async def extend_url(url_request: URLRequest):
     return RedirectResponse(f['src'])
 
 
+# For debugging
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
